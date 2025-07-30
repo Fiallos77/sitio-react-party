@@ -2,7 +2,7 @@ import Header from './Header'
 import Product from './Product'
 import './App.css'
 import ContactForm from './ContactForm'
-import fiesta1 from './assets/Hall1.png'
+import fiesta1 from './assets/hall1.png'
 import fiesta2 from './assets/Hall2.png'
 
 
