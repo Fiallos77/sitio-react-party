@@ -2,7 +2,8 @@ import Header from './Header'
 import Product from './Product'
 import './App.css'
 import ContactForm from './ContactForm'
-
+import fiesta1 from './assets/Hall1.png'
+import fiesta2 from './assets/Hall2.png'
 
 
 function App() {
@@ -18,15 +19,15 @@ function App() {
         <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
           <Product
             nombre="Kit Fiesta Infantil"
-            imagen="https://via.placeholder.com/300x200?text=Producto+1"
+            imagen={fiesta1}
             descripcion="Incluye platos, vasos y decoración temática."
             precio="$25.00"
           />
           <Product
             nombre="Decoración Globos"
-            imagen="https://via.placeholder.com/300x200?text=Producto+2"
+            imagen={fiesta2}
             descripcion="Globos personalizados con helio y colores a elección."
-            precio="$15.00"
+            precio="$5.00"
           />
         </div>
         <ContactForm></ContactForm>
